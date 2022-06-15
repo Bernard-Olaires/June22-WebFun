@@ -1,0 +1,25 @@
+body {
+    font-family: 'robot', sans-serif;
+}
+
+.nav {
+    background-color: grey;
+    color: white;
+    height: 90px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
