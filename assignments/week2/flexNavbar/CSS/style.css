@@ -5,15 +5,11 @@ body {
 .nav {
     background-color: grey;
     color: white;
-    height: 90px;
+    height: 80px;
     width: 1000px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.nav-title {
-    margin-left: 20px;
 }
 
 .nav-links {
@@ -21,5 +17,24 @@ body {
     display: flex;
     align-items: center;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: teal;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 4px 4px black;
 }
