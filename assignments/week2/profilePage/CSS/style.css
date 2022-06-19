@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 1px red dotted;
+}
+
+body {
+    font-family: 'robot', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.top{
+    background-color: black;
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: teal;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 4px 4px black;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-2{
+    flex: 2;
+}
+
+
+.card, .card-2 {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(153, 153, 153);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.header {
+    background-color: rgb(23, 162, 184);
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.body {
+    padding: 20px;
+}
+
+.body h1, .body h2, .body h3, .body p{
+    margin: 20px 0px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 190px;
+    padding: 5px;   
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6
+}
+
+.con-request{
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
+    color:rgb(255, 255, 255);
+}
+
+.avatar-1 {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.user-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.start-con, .end-con {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
