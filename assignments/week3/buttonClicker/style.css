@@ -80,13 +80,24 @@ body {
 }
 
 .left {
-    flex: 1;
+    flex: 33%;
+    text-align: center; 
+    
+}
+
+.left p {
+    padding: 3px;
+}
+
+.left button{
+    margin-top: 20px;
 }
 
 .left-p {
     margin: 10px 0;
     font-size: 1.2rem;
     line-height: 1.5;
+    flex: 66%;
 }
 
 .btn-like {

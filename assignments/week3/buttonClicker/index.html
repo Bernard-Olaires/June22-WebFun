@@ -13,7 +13,7 @@
             <div class="top">
                 <h1 class="title">Dojonary</h1>
                 <input type="text" name="search" placeholder="search" class="search">
-                <button class="btn-log">Login</button>
+                <button class="btn-log" onclick="Logout(this)">Login</button>
             </div>
         </header>
         <!-- left side -->
@@ -26,7 +26,7 @@
                             <h1>ninja</h1>
                             <p><em>noun</em></p>
                             <p>Plural: <em>ninjas</em></p>
-                            <button class="btn-like">13 likes</button>
+                            <button class="btn-like" onclick="alert ('Ninja was liked')">13 likes</button>
                         </div>
                         <div class="left-p">
                             <p class="deff-text">A practitioner skilled in the <a href="#">Japanese</a>
@@ -40,7 +40,7 @@
                             <h1>ninja</h1>
                             <p><em>noun</em></p>
                             <p>Plural: <em>ninjas</em></p>
-                            <button class="btn-like">13 likes</button>
+                            <button class="btn-like" onclick="alert ('Ninja was liked')">13 likes</button>
                         </div>
                         <div class="left-p">
                             <p class="deff-text">A practitioner skilled in the <a href="#">Japanese</a>
@@ -52,12 +52,14 @@
                 <!-- right side -->
                 <div class="flex-1">
                     <div class="box">
-                        <h2>Dojonary is defined by YOU</h2>
-                        <button class="btn-add">Add Definition</button>
+                        <h2>Dojonary is <br> defined by YOU</h2>
+                        <button class="btn-add" onclick="hide(this)">Add Definition</button>
                     </div>
                 </div>
             </div>
         </div>
 
+
+        <script src="./script.js"></script>
     </body>
 </html>
