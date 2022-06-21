@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 1px red dotted;
+    
+}
+
+body {
+    font-family: 'robot', sans-serif;
+    background-color: #f3f3f3;
+}
+
+/* nav bar */
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contain {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.top {
+    background-color: lightgrey;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.search {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 0 100px;
+}
+
+.btn-log {
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    background-color: #2b78e4;
+    color: white;
+}
+
+.row {
+    display: flex;
+    
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-1 {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.box {
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.box-deff {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px ;
+    border: 2px solid black;
+    display: flex;
+}
+
+.left {
+    flex: 1;
+}
+
+.left-p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.btn-like {
+    background-color: #ffd966;
+}
+
+.deff-text {
+    flex: 3;
+    margin-left: 20px;
+    font-size: 1.4rem;
+}
+
+.box h2 {
+    font-size: 1.7rem;
+}
+
+.btn-add {
+    background-color: #93c47d;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 4px 4px black;
+}
