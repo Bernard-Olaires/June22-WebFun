@@ -15,11 +15,6 @@ body {
     margin: 0 auto;
 }
 
-.contain {
-    width: 1000px;
-    margin: 0 auto;
-
-}
 .top {
     background-color: lightgrey;
     height: 60px;
@@ -28,6 +23,8 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .title {
     font-size: 3rem;
@@ -51,6 +48,8 @@ body {
     background-color: #2b78e4;
     color: white;
 }
+
+/* end top bar */
 
 
 .row {
