@@ -16,20 +16,54 @@
             </div> 
             <!-- your feed -->
             <h1 class="center">Your Feed</h1>
-
+            
             <div class="row">
+                <!-- left side -->
                 <div class="left">
-                    <div calss="user">
-                        <img src="./img/user-circle.png" alt="user">
+                    <div class="user">
+                        <img src="./img/user-circle.png" alt="user" class="avatar-m">
                         <p><a href="#">Add an avatar</a></p>
+                        <h2>John doe</h2>
                     </div>
                 </div>
-
-
+                <!-- right side -->
+                <div class="right">
+                    <!-- Neil M -->
+                    <div class="post">
+                        <div class="top-line">
+                            <h2>Niel M</h2>
+                            <div class="likes">
+                                <span id="post-1">9 Like(s)</span>
+                                <button class="like-btn" onclick="like(0)">Like</button>
+                            </div>
+                        </div>
+                        <p>I just set up this new discrod bot, let me know what you all think.</p>
+                    </div>
+                    <!-- Nichole k  -->
+                    <div class="post">
+                        <div class="top-line">
+                            <h2>Nichole K</h2>
+                            <div class="likes">
+                                <span id="post-2">9 Like(s)</span>
+                                <button class="like-btn" onclick="like(1)">Like</button>
+                            </div>
+                        </div>
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                    <!-- Jim R -->
+                    <div class="post">
+                        <div class="top-line">
+                            <h2>Jim R</h2>
+                            <div class="likes">
+                                <span id="post-3">9 Like(s)</span>
+                                <button class="like-btn" onclick="like(2)">Like</button>
+                            </div>
+                        </div>
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <script href="./script.js"></script>
+        <script src="./script.js"></script>
     </body>
 </html>
